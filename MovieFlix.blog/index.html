@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .p {text-align: center; font-size: 40px;  color: white;}
+    .p1 {text-align: center; font-size: 20px;  color: white;}
+    .p2 {text-align: center; font-size: 15px;  color: yellow;}
+    .button {border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+    .button1 {background-color: #4CAF50;} 
+    .button2 {background-color: #008CBA;} 
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css files/styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>MovieFlix</title>
+</head>
+<body bgcolor="black">
+
+    <header class="text-red-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-red-900 mb-4 md:mb-0">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">MovieFlix</span>
+        </a>
+        
+          </svg>
+        </button>
+      </div>
+    </header>
+
+<br>
+<br>
+
+<p class="p" >MovieFlix</p>
+<br>
+<br>
+
+<p class ="p1">Welcome to MovieFlix, the online streaming website. Here you can watch movies, live news, kids shows and tv shows!!</p>
+<p class = "p1"> login below to support the website or click on the guest option to view the website as a guest account. </p>
+
+<br>
+<br>
+
+<center><pre><a href="pages/login.html"><button class="button button1">login</button></a>     <a href="pages/home.html"><button class="button button2">guest</button></a></pre></center>
+
+<br>
+<br>
+<br>
+
+<center> <section aria-label="Newest Photos">
+  <div class="carousel" data-carousel>
+    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+    <ul data-slides>
+      <li class="slide" data-active>
+        <img src="movies.jpg"  >
+      </li>
+      <li class="slide">
+        <img src="news.jpg"  >
+      </li>
+      <li class="slide">
+        <img src="shows.jpg" >
+      </li>
+      <li class="slide">
+        <img src="kids.jpg" >
+      </li>
+    </ul>
+  </div>
+</section></center>
+
+<br>
+<br>
+
+
+
+<footer class="text-red-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-red-900">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">MovieFlix</span>
+    </a>
+    <p class="text-sm text-red-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-red-200 sm:py-2 sm:mt-0 mt-4"></p>
+      <a class="text-red-600 ml-1" rel="noopener noreferrer" target="_blank">Sahil Sharma | 10A</a>
+    </p>
+  </div>
+</footer>
+
+<p class="p2"><marquee width="100%" direction="right" height="100px">
+  Please note that this website is made for educational purposes only!! 
+  </marquee></p>
+</body>
+</html>
